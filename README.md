@@ -5,3 +5,4 @@
 * github repo loomine - PA
 * VScode remote seadistamine
 * Kursuse põhifailide loomine ja testomine
+* õpetaja github [https://github.com/AnnaKarutina/pa_kd19](https://github.com/AnnaKarutina/pa_kd19)
