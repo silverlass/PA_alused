@@ -1,33 +1,49 @@
-// Logid konsooli
+// Muutujad
 
-// logid
+// var, let, const
 
-console.log(123);
+//var
 
-// tabel
+var nimi = 'Silver';
+console.log(nimi);
+nimi = "sillu";
+console.log(nimi);
 
-console.table({a:1,b:2})
+// muutujate initsialiseerimine
 
-//veateade
+var tervitus;
+console.log(tervitus);
+tervitus = 'tere tulemast';
+console.log(tervitus);
 
-console.error('See on mingi viga');
+// liitnimetused muutujate jaoks
+var eesNimi = 'Silver'; //Camel style
+var ees_nimi = 'Silver'; // PHP stiil
+var EesNimi = 'Silver'; // Pascal stiil
+var eesnimi = 'Silver';
 
-// Hoiatused
+// let
+let pereNimi ='Lass';
+console.log(pereNimi);
+pereNimi = '??????';
+console.log(pereNimi);
 
-console.warn('see on märkus');
+//const
 
-// ajakulu kontroll
+const minuEesNimi = 'Silver';
+console.log(minuEesNimi);
 
-console.time('Test');
-    console.log('mingi tegevus');
-    console.log('mingi tegevus');
-    console.log('mingi tegevus');
-    console.log('mingi tegevus');
-    console.log('mingi tegevus');
-console.timeEnd('Test');
+//const kasutamise näide 1
+const inimene = {nimi:'Silver',vanus: 20};
+console.table(inimene);
+inimene.vanus = 21;
+console.table(inimene);
 
-// kustutamine
+// const kasutamise näide 2
 
-console.clear();
+const arvud = [1,2,3,4,5];
+console.log(arvud);
+arvud.push(6);
+console.log(arvud);
 
 
