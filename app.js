@@ -1,8 +1,7 @@
-// If statement asks for password
-
-let passWord=window.prompt('sisesta parool:');
-if (passWord === 'parool'){
-   window.alert('password is correct'); 
+// tingimuslause küsib vanust
+let vanus = window.prompt('sisesta oma vanus');
+if (vanus<14){
+    window.alert('oled liiga noor');
 }else{
-    window.alert('wrong password');
+    window.alert('oled piisavalt vana')
 };
