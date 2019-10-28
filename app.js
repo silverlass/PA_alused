@@ -1,11 +1,15 @@
-//Tingimuslaused harjutus 3
+// Tsüklid
 
-let summaKontol =  parseInt(prompt('Palju sul raha on?'));
+// for tsükkel ehk üldtsükkel
+
+
+
+for (let arv=1;arv<=10;arv++){
     
-let moneyOut = parseInt(prompt('Palju sa välja tahad võtta?'));
-if (moneyOut > summaKontol){
-    alert('Sul pole nii palju raha');
+    if (arv % 2 == 0){
+    
+    console.log('paarisarv = ' + arv)
 }else{
-    let moneyLeft = summaKontol - moneyOut;
-    alert('võtsid välja ' + moneyOut + ' Jääk on ' + moneyLeft);
+    console.log('paaritu arv = ' + arv)
 }
+    }
