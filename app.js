@@ -39,7 +39,7 @@ console.table(inimene);
 inimene.vanus = 21;
 console.table(inimene);
 
-// const kasutamise näide 2
+// const kasutamise näide 222
 
 const arvud = [1,2,3,4,5];
 console.log(arvud);
