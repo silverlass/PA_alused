@@ -8,8 +8,13 @@ for (let arv=1;arv<=10;arv++){
     
     if (arv % 2 == 0){
     
-    console.log('paarisarv = ' + arv)
+    console.log('paarisarv = ' + arv);
+    
 }else{
-    console.log('paaritu arv = ' + arv)
+    console.log('paaritu arv = ' + arv);
+    
+}
+if (arv>=5){
+    break;
 }
     }
