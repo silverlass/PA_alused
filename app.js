@@ -2,19 +2,8 @@
 
 // for tsükkel ehk üldtsükkel
 
-
-
-for (let arv=1;arv<=10;arv++){
-    
-    if (arv % 2 == 0){
-    
-    console.log('paarisarv = ' + arv);
-    
-}else{
-    console.log('paaritu arv = ' + arv);
-    
+let autod = ['Kia','Toyota','Ford','Nissan'];
+//väljastan
+for (let i =0;i<autod.length;i++){
+    console.log(autod[i]);
 }
-if (arv>=5){
-    break;
-}
-    }
