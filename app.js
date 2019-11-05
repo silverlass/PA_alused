@@ -3,11 +3,13 @@ function paarsuseKontroll(arv){
 
 let jaak = arv % 2;
 if (jaak === 0){
-    console.log(arv + ' on paaris');
+lause = arv + ' on paaris';
 }else{
-    console.log(arv + ' on paaritu');
+lause = arv + ' on paaritu';
 }
-
+return lause;
 }
+let paarsus;
+paarsus = paarsuseKontroll(5);
+console.log(paarsus)
 
-paarsuseKontroll(5)
