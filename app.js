@@ -1,14 +1,7 @@
-algarvud= []
-for (var i = 1; i<20;i++){
-    let count = 0;
-    for (var k = 1; k <20;k++){
-        if (i % k == 0){
-            count = count+1;
-        }
-    }
-    if (count == 2){
-        algarvud.push(i);
-    }
+let arv = 4;
+let jaak = arv % 2;
+if (jaak ===0){
+    console.log(arv + ' on paaris');
+}else{
+    console.log(arv + 'on paaritu');
 }
-console.log(algarvud)
-
