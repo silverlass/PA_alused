@@ -1,19 +1,14 @@
-// Tsüklid
-
-// while tüskkel ehk eelkontrolliga
-
-let arv = 5;
-let jagaja = 2;
-
-while (arv % jagaja != 0){
-    jagaja++;
-} 
-    if (arv == jagaja){
-        console.log(arv + ' on algarv');
-
-    }else{
-        console.log(arv + ' ei ole algarv');
+algarvud= []
+for (var i = 1; i<20;i++){
+    let count = 0;
+    for (var k = 1; k <20;k++){
+        if (i % k == 0){
+            count = count+1;
+        }
     }
-
-
+    if (count == 2){
+        algarvud.push(i);
+    }
+}
+console.log(algarvud)
 
