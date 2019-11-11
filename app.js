@@ -16,4 +16,16 @@ for (var a = 0; a < 10; a++){
     console.log('Tsükkel', a);
 }
 
+function testScope(){
+    var a = 4;
+    let b = 5;
+    const c = 6;
+    console.log('Funtsioon: ',a,b,c);
+}
+testScope();
+
+
+
+
+
 console.log('globaalne',a,b,c);
